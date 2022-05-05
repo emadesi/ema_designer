@@ -1,0 +1,428 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&display=swap');
+
+
+
+*{
+	margin:0;
+	padding:0;
+	border:0;
+}
+img{
+	display:block;
+	width:100%;
+	height:auto;
+	
+}
+nav{
+	width: 100%;
+	position: fixed;
+    padding: 20px;
+	background-color:rebeccapurple;
+	z-index: 1;
+}
+nav ul{
+float: right;}
+
+nav ul li {
+display:inline;
+	padding-right:40px;	
+}
+nav ul li a {
+	text-decoration:none;
+	font-weight:bold;
+	font-size:18px;
+	color: cadetblue;
+	
+}
+nav a:hover{
+	color:hotpink;
+font-size: 20px;}
+
+header img{
+display:block;
+	width:70%;
+	margin:0 auto;
+	clear:both;
+	padding-top: 198px;
+	padding-left: 100px;
+}
+
+
+
+body{
+width:80%;
+display:block;
+
+	font-family: 'Roboto Condensed', sans-serif;
+background-image:url("my portfolio/خلفية الموقع البنفسجي.png")
+}
+
+
+#main table{
+	width:87%;
+	margin-left: 200px;
+	padding:50px 50px 50px 50px;
+	opacity: inherit 50;
+	
+}
+tabel td{
+	padding:20px;
+}
+header{
+	height: 700px;
+}
+#main{
+	width:100%;
+	
+	height: auto;
+}
+#about, #contact {
+width: 85%;
+margin:0 auto;
+height:390px;
+	padding: 200px 50px 200px 50px;
+	
+}
+
+ p{
+   float: left;
+   width: 40%;
+   padding: 30px 200px 50px 100px;
+	line-height: 20px
+		
+}
+h3{
+	padding-left: 100px;
+	color: hotpink;
+	font-style: 300;}
+
+	
+#about img {
+	
+	width: 20%;
+}
+
+footer{
+	text-align: center;
+	margin: 10px;
+	width: 100%;
+	clear: both;
+}
+
+
+
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 50%;
+  background-color:cadetblue;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color:chocolat;
+}
+
+iframe{
+	padding-left: 100px;
+	padding-bottom: 10px;
+}
+
+form {
+	width: 40%;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+	margin-left: 70px; 
+  clear: both;
+	
+	
+		
+}
+#about img{
+	
+width: 25%;	
+
+}
+
+footer{
+	text-align: center;
+	margin: 50px;
+	margin-left: 100px;
+	width: 100%;
+	clear: both;
+}
+
+textarea{
+	width: 100%;
+	
+}
+
+#social {
+padding: 30px 100px 0px 100px;
+
+}
+
+
+#social a{
+color:cadetblue;
+
+
+text-decoration: none;
+
+}
+#social a:hover{
+color:hotpink}
+
+#side img{
+	
+	width: 13%;
+	float: left;
+	
+	padding: 5%;
+	z-index: 3;
+	padding-left:10px;
+}
+
+#side{
+	height: 200px;
+}
+
+@media only screen and (max-width: 600px) {
+  header img {display: none;}
+	header{height: 400px;}
+	nav{
+	
+	width: 100%;
+    padding:0px;
+	background-color:rebeccapurple;
+		padding-top: 5px;
+
+}
+nav ul{
+float: none;}
+
+nav ul li {
+display:block;
+	padding-left:50px;
+	padding-bottom: 0px;
+	text-align: center;
+}
+nav ul li a {
+	text-decoration:none;
+	font-weight:bold;
+	font-size:20px;
+	color: cadetblue;}
+	
+	#main{
+		width:60%;
+	height: auto;
+	padding-left: 88px;
+	}
+	
+	#main table td{
+		display: inline;
+		width: 100%;}
+	
+	#main table{
+	width:85%;
+	margin:0 auto;
+	padding:5px 0px 80px 0px;
+}
+	
+	
+	body{
+width:100%;
+display:block;
+	margin:0 auto;
+	font-family: 'Roboto Condensed', sans-serif;
+background-image:url("my portfolio/صوره الايفون2.png")
+}
+	
+	#about, #contact {
+
+height:auto;
+	padding: 5px 20px 10px 20px;}
+	
+	p{
+   float: none;
+   width: 80%;
+   padding: 5px 0px 5px 0px;
+	line-height: 10px;
+		font-size: 8pt;}
+	#about img{
+		display: none;
+	}
+	
+	h3{
+	padding-left: 5px;
+	color: hotpink;
+	font-style: 300;}
+	
+	#contact form{display: none;}
+	#contact h3{display: none;}
+	#contact p{display: none;}
+	
+	#social {
+padding: 5px 0px 5px 0px;
+		margin-bottom: 0px;
+
+}
+	
+footer{
+	text-align: center;
+	margin: 10px;
+	width: 100%;
+	clear: both;
+}
+
+
+iframe{
+	padding-left: 5px;
+	padding-bottom: 10px;
+}	
+	
+}
+
+
+
+#pro{
+	width: 80%;
+	margin:0 auto;
+	
+	
+}
+
+
+#pro h1{
+text-align: center;
+font-size: 40pt;
+font-style:oblique;
+	color:hotpink;
+	padding-bottom: 100px;
+	padding-left: 190px;
+	
+	
+}
+
+#pro h1:hover{
+	color:cadetblue;
+}
+
+#pro img{
+	width: 50%;
+	margin: 0 auto;
+	
+	padding-bottom: 20px;
+
+	
+}
+
+#pro p{
+	width: 50%;
+	padding: 10px 20px 50px 300px;
+	color: white;
+	
+}
+
+
+
+
+p{
+	color: white;
+}
+h6{
+	color: white;
+}
+
+.arrow{
+border: solid #FFFFFF;
+	border-width: 0 3px 3px 0;
+	display: inline-block;
+	padding: 10px;
+	position: relative;
+	z-index: 10;
+	
+}
+
+.right {
+	float:right;
+	color:white;
+	margin-top:250px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+
+.left {
+	float: left;
+	color:white;
+	margin-top: 250px;
+	margin-left: 200px;
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+#socialp {
+padding-bottom: 20px;
+
+
+}
+
+
+#socialp a{
+color:cadetblue;
+padding-right:10px;
+text-decoration: none;
+
+}
+#socialp a:hover{
+color:hotpink}
+
+
+div5 {
+ 
+  position: relative;
+  animation: mymove 5s infinite;
+}
+
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 200px;}
+}
+
+body.progect1{
+	width: 80%;
+	background-image:url("my portfolio/خلفية الموقع البنفسجي1.png")
+	
+}
+
+
+
+	
+
+  
+
+
+	
+
+	
+	
+
+
+
